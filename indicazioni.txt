@@ -13,7 +13,7 @@ Il test dovrà essere eseguito sui browser:
 
 L’obiettivo del test è il controllo multi browser / dispositivi della landing page e la determinazione / correzione dei bug riscontrati.
 In una prima fase individua eventuali malfunzionamenti e annotali su un documento word. 
-In secondo luogo puoi passare alla correzione dei malfunzionamenti (ove possibile).
+In secondo luogo puoi passare alla correzione dei malfunzionamenti.
 
 L’idea di base di questa landing è pensare che venga pubblicata a breve quindi fixare o indicare anomalie che online non sarebbero gradite. 
 
@@ -29,6 +29,6 @@ Precisazioni:
 -	Sempre da google chrome puoi simulare per tablet e phone il dispositivo Ipad e iphoneX e svolgere il controllo su questi 2 dispositivi simulati. Aggiorna la pagina una volta switchato il dispositivo dagli strumenti di sviluppo di chrome
 -	Alcuni bug sono reali, altri mentre li ho introdotti io volontariamente in forme non comuni (che non troveresti su normali siti ma da qualche parte li ho dovuti “nascondere”). Essendo una landing statica parliamo sempre di css e js.
 -	Se qualcosa ti sembra dubbio sia in visualizzazione, sia a livello di codice, sia al livello di estetica e/o usabilità segnalalo lo stesso nel documento word
-- Prova a fixare il maggior numero di segnalazioni che riscontri (ove possibile)
+- Prova a fixare il maggior numero di segnalazioni che riscontri
 
 Una volta terminato, comprimi tutto in uno zip e rimandacelo per la valutazione.
