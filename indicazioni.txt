@@ -1,0 +1,34 @@
+INDICAZIONI TEST 
+
+Si tratta di una landing page (statica) realizzata per un nostro cliente per sponsorizzare una nuova linea di prodotti.
+
+Il test dovrà essere eseguito sui browser: 
+-	Chrome 
+-	Firefox
+-	Edge
+-	Internet explorer (11)
+
+-	Tablet (ipad) : puoi simulare dagli strumenti di sviluppo di chrome 
+-	Phone (iphone x): puoi simulare dagli strumenti di sviluppo di chrome
+
+L’obiettivo del test è il controllo multi browser / dispositivi della landing page e la determinazione / correzione dei bug riscontrati.
+In una prima fase individua eventuali malfunzionamenti e annotali su un documento word. 
+In secondo luogo puoi passare alla correzione dei malfunzionamenti (ove possibile).
+
+L’idea di base di questa landing è pensare che venga pubblicata a breve quindi fixare o indicare anomalie che online non sarebbero gradite. 
+
+Alcuni elementi possono essere: 
+-	Link mancanti (segnalali soltanto nel file word)
+-	Non corretta visualizzazione su browser
+-	Errori js in console
+-	Usabilità della landing su dispositivi 
+
+Precisazioni: 
+-	Controllo da effettuare se possibile in ambiente windows
+-	Aprendo lo zip originale (dal link github) la versione che fa fede (a livello di front end) della landing è quella che vedi in google chrome desktop. Non avendo la grafica della landing puoi basarti su questa versione come riferimento
+-	Sempre da google chrome puoi simulare per tablet e phone il dispositivo Ipad e iphoneX e svolgere il controllo su questi 2 dispositivi simulati. Aggiorna la pagina una volta switchato il dispositivo dagli strumenti di sviluppo di chrome
+-	Alcuni bug sono reali, altri mentre li ho introdotti io volontariamente in forme non comuni (che non troveresti su normali siti ma da qualche parte li ho dovuti “nascondere”). Essendo una landing statica parliamo sempre di css e js.
+-	Se qualcosa ti sembra dubbio sia in visualizzazione, sia a livello di codice, sia al livello di estetica e/o usabilità segnalalo lo stesso nel documento word
+- Prova a fixare il maggior numero di segnalazioni che riscontri (ove possibile)
+
+Una volta terminato, comprimi tutto in uno zip e rimandacelo per la valutazione.
