@@ -1,0 +1,62 @@
+ISTRUZIONI
+
+Leggi tutte le istruzioni prima di cominciare.
+Il test si basa su un montaggio reale con il bundler utilizzato dai front ender. 
+
+Puoi scegliere 2 modi di intraprendere il test:
+1) lavorare sulla cartella dist (sui file generati) e rimandare lo zip con eventuali correzioni
+oppure 
+2) installare node js e gulp e lavorare sui sorgenti che rigenerano a sua volta la cartella dist. Al termine rimandare solo le cartelle dist e src zippate.
+
+Note: 
+Installazione node js: https://nodejs.org/it/
+Installazione gulp: https://gulpjs.com/docs/en/getting-started/quick-start/
+
+una volta installati node e gulp entra nella cartella tshr e lancia nel terminale:
+npm install
+
+gulp
+
+il montaggio statico sarà visibile all'indirizzo http://localhost:9999/homepage.html
+
+-------------------------------------------------------------------------------------------
+
+I template da controllare sono:
+- homepage.html
+- listing-eventi.html
+- scheda-evento.html
+- scheda-product.html
+- scheda-suite.html
+
+Il test dovrà essere eseguito sui browser: 
+-	Chrome 
+-	Firefox
+-	Edge
+
+-	Tablet (ipad Air) : puoi simulare dagli strumenti di sviluppo di chrome 
+-	Phone Ios (iphone12 pro): puoi simulare dagli strumenti di sviluppo di chrome
+-	Phone Android(samsung galaxy 8+): puoi simulare dagli strumenti di sviluppo di chrome
+
+NOTA BENE: Per i dispositivi tablet e mobile ricordati di aggiornare sempre la pagina quando fai lo switch del dispositivo o il cambio di orientamento del dispositivo
+
+L’obiettivo del test è il controllo multi browser / dispositivi dei template e la determinazione / correzione dei bug riscontrati.
+In una prima fase individua eventuali malfunzionamenti e annotali su un documento word. 
+In secondo luogo puoi passare alla correzione dei malfunzionamenti seguendo le modalità di fixing descritte sopra.
+
+L’idea di base di questi template è pensare che vengano pubblicati a breve, quindi fixare o indicare anomalie che online non sarebbero gradite. 
+
+Alcuni elementi possono essere: 
+-	Non corretta visualizzazione su browser
+-	Errori js in console
+-	Usabilità dei template sui dispositivi 
+- 	Qualsiasi cosa noti di strano o non conforme nella pagina (font piccoli, sovrapposizione testi o elementi ecc..)
+
+Precisazioni: 
+-	Controllo da effettuare se possibile in ambiente windows
+-	Aprendo lo zip originale (dal link github) la versione che fa fede (a livello di visualizzazione front end) di ogni template è quella che vedi in google chrome desktop. Non avendo la grafica dei template puoi basarti su questa versione come riferimento
+-	Sempre da google chrome puoi simulare per tablet e phone i dispositivi indicati sopra e svolgere il controllo. Aggiorna la pagina una volta switchato il dispositivo dagli strumenti di sviluppo di chrome
+-	Alcuni bug sono reali, altri mentre li ho introdotti io volontariamente in forme non comuni (che non troveresti su normali siti ma da qualche parte li ho dovuti “nascondere”). Essendo template statici parliamo sempre di css e js.
+-	Se qualcosa ti sembra dubbio sia in visualizzazione, sia a livello di codice, sia al livello di estetica e/o usabilità segnalalo lo stesso nel documento word
+- Prova a fixare il maggior numero di segnalazioni che riscontri
+
+Una volta terminato, comprimi tutto in uno zip (tranne la cartella node_modules se hai installato node e gulp) e rimandacelo per la valutazione.

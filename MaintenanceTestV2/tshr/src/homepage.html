@@ -1,0 +1,36 @@
+<!-- @@master = ./templates/layout.html { "class": "page-class", "title": "bundler" } -->
+<!-- @@block = main-->
+<main class="page">
+	<!-- @@include ./templates/sections/hero.html -->
+	<!-- @@include ./templates/sections/find.html -->
+	<!-- @@include ./templates/sections/features.html -->
+	<!-- @@include ./templates/sections/highlights.html -->
+	<!-- @@include ./templates/sections/related.html -->
+</main>
+<!-- @@close-->
+<!-- @@block = css-->
+<!-- connect to domain of font files -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- optionally increase loading priority -->
+<link rel="preload" as="font" href="./assets/font/roboto.css">
+
+<!-- async CSS -->
+<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./assets/font/roboto.css">
+
+<!-- no-JS fallback -->
+<noscript>
+	<link rel="stylesheet" href="./assets/font/roboto.css">
+</noscript>
+
+<link rel="preload" href="./css/vendors.min.css" as="style">
+<link rel="stylesheet" href="./css/vendors.min.css" />
+
+<link rel="preload" href="./css/homepage.min.css" as="style">
+<link rel="stylesheet" href="./css/homepage.min.css" />
+<!-- @@close-->
+<!-- @@block = js-->
+<!-- <script src="./js/vendors.min.js"></script> -->
+<script src="./js/homepage.min.js"></script>
+<script src="./js/_smoothscroll.js"></script>
+<!-- @@close-->

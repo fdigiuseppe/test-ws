@@ -1,0 +1,44 @@
+<section class="section contact-form" data-anchor-content="form-section">
+	<div class="container">
+		<div class="cont-form">
+			<div class="container">
+                <div class="box">
+                    <div class="box-title">
+                        Compila il form <strong>per richiedere informazioni</strong>
+                    </div>
+                </div>
+				<div class="myform" id="contatto-new">
+
+					<div id="contatto-new-2">
+
+						<!--[if lte IE 8]>
+
+                        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+
+                        <![endif]-->
+
+						<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+						<script>
+							hbspt.forms.create({
+								portalId: "5264012",
+								formId: "7ba3477f-c56d-42b1-8a72-e4d1611bce95",
+								css: "",
+								cssClass: "form-hsb",
+								submitButtonClass: "btn btn-azure"
+
+							});
+							onload = function() {
+								if (document.getElementsByName("url_last_submission")[0]) {
+									document.getElementsByName("url_last_submission")[0].value = document.location.href;
+								}
+							};
+
+						</script>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>

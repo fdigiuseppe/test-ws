@@ -1,0 +1,108 @@
+﻿{
+  "targets": {
+    "browser": {
+      "compile": [
+        {
+          "input": "src/*.html",
+          "output": "dist/",
+          "minify": false
+        },
+        {
+          "input": "src/scss/homepage.scss",
+          "output": "dist/css/homepage.css",
+          "minify": true
+        },
+        {
+          "input": "src/js/homepage.js",
+          "output": "dist/js/homepage.js",
+          "minify": true
+        },
+        {
+          "input": "src/js/shared/smoothscroll.js",
+          "output": "dist/js/smoothscroll.js",
+          "minify": true
+        },
+        {
+          "input": "src/scss/schedaSuite.scss",
+          "output": "dist/css/schedaSuite.css",
+          "minify": true
+        },
+        {
+          "input": "src/js/schedaSuite.js",
+          "output": "dist/js/schedaSuite.js",
+          "minify": true
+        },
+        {
+          "input": "src/scss/schedaProduct.scss",
+          "output": "dist/css/schedaProduct.css",
+          "minify": true
+        },
+        {
+          "input": "src/js/schedaProduct.js",
+          "output": "dist/js/schedaProduct.js",
+          "minify": true
+        },
+        {
+          "input": "src/js/schedaEvento.js",
+          "output": "dist/js/schedaEvento.js",
+          "minify": true
+        },
+        {
+          "input": "src/scss/schedaEvento.scss",
+          "output": "dist/css/schedaEvento.css",
+          "minify": true
+        },
+        {
+          "input": "src/js/listingEventi.js",
+          "output": "dist/js/listingEventi.js",
+          "minify": true
+        },
+        {
+          "input": "src/scss/listingEventi.scss",
+          "output": "dist/css/listingEventi.css",
+          "minify": true
+        },
+        {
+          "input": "src/scss/tempHeader21.scss",
+          "output": "dist/css/tempHeader21.css",
+          "minify": false
+        },
+        {
+          "input": "src/js/tempHeader21.js",
+          "output": "dist/js/tempHeader21.js",
+          "minify": false
+        }
+      ],
+      "bundle": [
+        {
+          "input": [
+            "node_modules/swiper/swiper-bundle.css"
+          ],
+          "output": "dist/css/vendors.css",
+          "minify": true
+        },
+        {
+          "input": [
+            "src/js/swiper/swiper-slider.js"
+          ],
+          "output": "dist/js/vendors.js",
+          "minify": true
+        }
+      ],
+      "copy": [
+        {
+          "input": "src/assets/**/*.*",
+          "output": "dist/assets/"
+        }
+      ]
+    }
+  },
+  "server": {
+    "root": "./dist",
+    "path": "/tshr/",
+    "host": "localhost",
+    "port": 9999,
+    "log": false
+  },
+  "tfs": false
+}

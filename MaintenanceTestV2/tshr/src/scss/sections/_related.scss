@@ -1,0 +1,48 @@
+@import "../core/mixins";
+@import "../core/variables";
+
+.related {
+    
+    .box._heading-center {
+        margin-bottom: $spacing-m;
+
+        @include media-down(md) {
+            margin-bottom: $spacing-s;
+        }
+    }
+}
+
+.card._related { 
+
+    @include media-down(sm) {
+        margin-bottom: $spacing-s;
+    }
+
+    .img {
+        margin-bottom: $spacing-xs;
+    }
+
+    .box-title {
+        color: $black;
+        font-size: pxrem(16);
+        font-weight: 300;
+        margin-bottom: $spacing-xs;
+
+        a {
+            color: $black;
+        }
+    }
+
+    .box-cta {
+        color: $black;
+        font-size: pxrem(16);
+        font-weight: 400;
+
+        a {
+            color: $black;
+        }
+    }
+}
+.ed .card._highlights .card-secondary{
+    position: fixed;
+}
