@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>
+		bundler
+	</title>
+	<meta name="Content-Language" content="en" />
+	<meta name="robots" content="noindex,nofollow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="apple-mobile-web-app-title" content="Teamsystem HR">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="mobile-web-app-capable" content="yes">
+	<link href="./assets/img/favicon.ico" rel="shortcut icon" type="image/ico" />
+<!-- start css -->
+<!-- connect to domain of font files -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- optionally increase loading priority -->
+<link rel="preload" as="font" href="./assets/font/roboto.css">
+
+<!-- async CSS -->
+<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./assets/font/roboto.css">
+
+<!-- no-JS fallback -->
+<noscript>
+	<link rel="stylesheet" href="./assets/font/roboto.css">
+</noscript>
+
+<link rel="preload" href="./css/vendors.min.css" as="style">
+<link rel="stylesheet" href="./css/vendors.min.css" />
+
+<link rel="preload" href="./css/schedaEvento.min.css" as="style">
+<link rel="stylesheet" href="./css/schedaEvento.min.css" />
+
+<!-- end css -->
+</head>
+
+<body class="page-class">
+	<div class="wrapper">
+<!-- start header.html-->
+<header class="header">
+	<div class="header-wrapper">
+		<div class="container">
+			<div class="header-main">
+				<div class="header-logo">
+					<a href="#" title="homepage">
+						<picture>
+							<!--<source srcset="./assets/img/ts-black.webp" media="(min-width: 768px)" alt="main logo teamsystem hr" width="161" height="53" type="image/webp">
+							<source srcset="./assets/img/ts-black.jpg" media="(min-width: 768px)" alt="main logo teamsystem hr" width="161" height="53" type="image/jpeg">
+							<source srcset="./assets/img/ts-mobile.webp" media="(max-width: 767px)" alt="main logo teamsystem hr" width="52" height="50" type="image/webp">-->
+							<img src="./assets/svg/logo-hq.svg" alt="main logo teamsystem hr" width="52" height="50"> <!-- mobile jpg-->
+						</picture>
+					</a>
+				</div>
+				<div class="header-btn _mobile">
+					<a href="#" class="btn _orange" title="contattaci">Contattaci</a>
+				</div>
+				<div class="header-user">
+					<div class="header-cta">
+						<a href="#" title="vai al sito">Vai al sito TeamSystem</a>
+					</div>
+					<div class="header-search">
+						<form method="get" class="" name="siteSearch" id="siteSearch">
+							<input type="text" id="search-input" name="txtSiteSearch" placeholder="Cerca nel sito">
+							<button class="btn" type="submit" id="ib1">
+								<svg class="ico"><use xlink:href="#ico-search"></use></svg>
+							</button>
+						</form>
+					</div>
+					<div class="header-btn">
+						<a href="#" class="btn _orange" title="contattaci">Contattaci</a>
+					</div>
+					<div class="header-toggle">
+						<button class="nav-toggler" data-nav-toggle type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="line"></span>
+							<span class="line"></span>
+							<span class="line"></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header-nav">
+		<div class="container">
+<!-- start nav.html-->
+<nav class="nav" aria-label="Main Navigation" role="navigation" data-nav>
+	<form method="get" class="mobile-search" name="siteSearch" id="siteSearch">
+		<input type="text" id="search-input" name="txtSiteSearch" placeholder="Cerca nel sito">
+		<button class="btn" type="submit" id="ib1">
+			<svg class="ico"><use xlink:href="#ico-search"></use></svg>
+		</button>
+	</form>
+	<ul>
+		<li class="submenu" data-toggle-target="submenu1">
+			<button id="menubutton1" data-toggle-btn="submenu1" aria-haspopup="true" aria-controls="subnav1" aria-expanded="false" class="nav-btn">
+				Prodotti e servizi 
+				<svg class="ico"><use xlink:href="#ico-arrow"></use></svg>
+			</button>
+			<div class="subnav">
+				<ul class="subnav-primary" id="subnav1" role="menu" aria-labelledby="menubutton1">
+					<li><button class="nav-back" data-nav-back="submenu1"><svg class="ico"><use xlink:href="#ico-back"></use></svg> Prodotti e servizi</button></li>
+					<li class="subnav-primary_item" data-toggle-sub-target="submenu-1-1">
+						<div class="subnav-title" data-toggle-sub-btn="submenu-1-1">soluzioni all in one
+						</div>
+						<ul class="subnav-secondary">
+							<li>
+								<button class="nav-back" data-subnav-back="submenu-1-1">
+									<svg class="ico"><use xlink:href="#ico-back"></use></svg> soluzioni all in one
+								</button>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">
+									<div class="subnav-title">Teamsystem HR</div>
+									<div class="subnav-text">Soluzione per la gestione e la valorizzazione delle risorse umane</div>
+								</a>
+								<ul class="subnav-tertiary">
+									<li class="subnav-tertiary_item">
+										<a href="#" role="menuitem">Amministrazione e paghe</a>
+									</li>
+									<li class="subnav-tertiary_item">
+										<a href="#" role="menuitem">Gestione e presenze</a>
+									</li>
+									<li class="subnav-tertiary_item">
+										<a href="#" role="menuitem">Human Capital Management</a>
+									</li>
+									<li class="subnav-tertiary_item">
+										<a href="#" role="menuitem">Salute e Sicurezza sul lavoro</a>
+									</li>
+									<li class="subnav-tertiary_item">
+										<a href="#" role="menuitem">Portale per l'HR e per il dipendente</a>
+									</li>
+								</ul>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">
+									<div class="subnav-title">App mobile TS hr</div>
+									<div class="subnav-text">Il collegamento del dipendente all'azienda in ogni momento e luogo</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="subnav-primary_item" data-toggle-sub-target="submenu-1-2">
+						<div class="subnav-title" data-toggle-sub-btn="submenu-1-2">Gestione dipendenti</div>
+						<ul class="subnav-secondary">
+							<li><button class="nav-back" data-subnav-back="submenu-1-2"><svg class="ico"><use xlink:href="#ico-back"></use></svg> Gestione dipendenti</button></li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">
+									<div class="subnav-title">Dipendenti in CLOUD</div>
+									<div class="subnav-text">Soluzione chiave in mano per il dipendente</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="subnav-primary_item" data-toggle-sub-target="submenu-1-3">
+						<div class="subnav-title" data-toggle-sub-btn="submenu-1-3">servizi in outsourcing</div>
+						<ul class="subnav-secondary">
+							<li><button class="nav-back" data-subnav-back="submenu-1-3"><svg class="ico"><use xlink:href="#ico-back"></use></svg> servizi in outsourcing</button></li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">
+									<div class="subnav-title">Service Paghe per Aziende</div>
+									<div class="subnav-text">Servizio per esternalizzare le paghe</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="subnav-primary_item _variant" data-toggle-sub-target="submenu-1-4">
+						<div class="subnav-title" data-toggle-sub-btn="submenu-1-4">aree tematiche</div>
+						<ul class="subnav-secondary">
+							<li><button class="nav-back" data-subnav-back="submenu-1-4"><svg class="ico"><use xlink:href="#ico-back"></use></svg> Aree tematiche</button></li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Gestione</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Paghe</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Presenze</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Allocazione risorse</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Timesheet</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Performance e MBO</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Compensation</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Learning Management System </a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Salute e sicurezza sul lavoro</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Welfare</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Recruiting</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</li>
+		<li class="submenu" data-toggle-target="submenu2">
+			<button id="menubutton2" data-toggle-btn="submenu2" aria-haspopup="true" aria-controls="subnav2" aria-expanded="false" class="nav-btn" >
+				A chi si rivolge 
+				<svg class="ico"><use xlink:href="#ico-arrow"></use></svg>
+			</button>
+			<div class="subnav">
+				<ul class="subnav-primary" id="subnav2" role="menu" aria-labelledby="menubutton2">
+					<li><button class="nav-back" data-nav-back="submenu2"><svg class="ico"><use xlink:href="#ico-back"></use></svg> A chi si rivolge</button></li>
+					<li class="subnav-primary_item" data-toggle-sub-target="submenu-2-1">
+						<div class="subnav-title" data-toggle-sub-btn="submenu-2-1">soluzioni all in one</div>
+						<ul class="subnav-secondary">
+							<li><button class="nav-back" data-subnav-back="submenu-2-1"><svg class="ico"><use xlink:href="#ico-back"></use></svg> soluzioni all in one</button></li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">
+									<div class="subnav-title">Teamsystem HR</div>
+									<div class="subnav-text">Soluzione per la gestione e la valorizzazione delle risorse umane</div>
+								</a>
+								<ul class="subnav-tertiary">
+									<li class="subnav-tertiary_item">
+										<a href="#" role="menuitem">Amministrazione e paghe</a>
+									</li>
+									<li class="subnav-tertiary_item">
+										<a href="#" role="menuitem">Gestione e presenze</a>
+									</li>
+									<li class="subnav-tertiary_item">
+										<a href="#" role="menuitem">Human Capital Management</a>
+									</li>
+									<li class="subnav-tertiary_item">
+										<a href="#" role="menuitem">Salute e Sicurezza sul lavoro</a>
+									</li>
+									<li class="subnav-tertiary_item">
+										<a href="#" role="menuitem">Portale per l'HR e per il dipendente</a>
+									</li>
+								</ul>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">
+									<div class="subnav-title">App mobile TS hr</div>
+									<div class="subnav-text">Il collegamento del dipendente all'azienda in ogni momento e luogo</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="subnav-primary_item" data-toggle-sub-target="submenu-2-2">
+						<div class="subnav-title" data-toggle-sub-btn="submenu-2-2">Gestione dipendenti</div>
+						<ul class="subnav-secondary">
+							<li><button class="nav-back" data-subnav-back="submenu-2-2"><svg class="ico"><use xlink:href="#ico-back"></use></svg> Gestione dipendenti</button></li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">
+									<div class="subnav-title">Dipendenti in CLOUD</div>
+									<div class="subnav-text">Soluzione chiave in mano per il dipendente</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="subnav-primary_item" data-toggle-sub-target="submenu-2-3">
+						<div class="subnav-title" data-toggle-sub-btn="submenu-2-3">servizi in outsourcing</div>
+						<ul class="subnav-secondary">
+							<li><button class="nav-back" data-subnav-back="submenu-2-3"><svg class="ico"><use xlink:href="#ico-back"></use></svg> servizi in outsourcing</button></li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">
+									<div class="subnav-title">Service Paghe per Aziende</div>
+									<div class="subnav-text">Servizio per esternalizzare le paghe</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="subnav-primary_item _variant" data-toggle-sub-target="submenu-2-4">
+						<div class="subnav-title" data-toggle-sub-btn="submenu-2-4">aree tematiche</div>
+						<ul class="subnav-secondary">
+							<li><button class="nav-back" data-subnav-back="submenu-2-4"><svg class="ico"><use xlink:href="#ico-back"></use></svg> aree tematiche</button></li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Gestione</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Paghe</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Presenze</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Allocazione risorse</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Timesheet</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Performance e MBO</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Compensation</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Learning Management System </a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Salute e sicurezza sul lavoro</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Welfare</a>
+							</li>
+							<li class="subnav-secondary_item">
+								<a href="#" role="menuitem">Recruiting</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</li>
+		<li>
+			<a href="#" id="menubutton3" role="menuitem" class="nav-btn">Magazine</a>
+		</li>
+		<li>
+			<a href="#" id="menubutton3" role="menuitem" class="nav-btn">Eventi</a>
+		</li>
+	</ul>
+</nav>
+
+<!-- end nav.html-->
+		</div>
+	</div>
+</header>
+
+<!-- end header.html-->
+<!-- start main -->
+<main class="page">
+<!-- start cover-small.html-->
+<section class="section cover _small">
+    <div class="img _slim">
+        <picture>
+            <source srcset="./assets/img/cover/cover-04.webp" media="(min-width: 768px)" alt="Title" width="1920" height="492" type="image/webp"> <!-- fullwidth webp-->
+            <source srcset="./assets/img/cover/cover-04.jpg" media="(min-width: 768px)" alt="Title" width="1920" height="492" type="image/jpeg"> <!-- fullwidth jpg-->
+            <source srcset="./assets/img/cover/cover-04m.webp" media="(max-width: 767px)" alt="Title" width="750" height="250" type="image/webp"> <!-- mobile webp-->
+            <img src="./assets/img/cover/cover-04m.jpg" alt="Title" width="750" height="250"> <!-- mobile jpg-->
+        </picture>
+    </div>
+</section>
+
+<!-- end cover-small.html-->
+<!-- start breadcrumb-alt.html-->
+<section class="section breadcrumb _alt">
+    <div class="container">
+        <ul>
+            <li>
+                <a href="/">HOME</a>
+            </li>
+            <li>
+                <span>TeamSystem HR</span>
+            </li>
+        </ul>
+        <h1>Digitalizzare la gestione del patrimonio, degli spazi e delle attività manutentive</h1>
+    </div>
+</section>
+
+<!-- end breadcrumb-alt.html-->
+<!-- start side-content-alt.html-->
+<section class="section side-content _alt">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-md-7 side-inner">
+				<article>
+					<div class="box">
+						<h2 class="h2">TeamSystem Construction per "La parola all'esperto" di IFMA</h2>
+						<h4 class="h4">SESSIONE ON LINE, mercoledì 1° luglio ore 15:00 - 17:00</h4>
+						<hr>
+						<p>
+							<strong>
+								"La parola all’esperto": una serie di incontri istituiti da IFMA Italia per approfondire, grazie alla collaborazione di esperti del settore, temi attuali e di specifico interesse per chi opera nel Facility Management.
+							</strong>
+						</p>
+						<p>
+							Parleremo di TeamSystem Enterprise Asset Management: soluzione cloud/web per la gestione e condivisione digitale delle informazioni di Property e Facility Management, accessibile ai propri collaboratori e ai fornitori esterni.
+						</p>
+						<h3 class="h3">PROGRAMMA</h3>
+						<ul>
+							<li><strong>Saluto e Introduzione</strong> | Francesca Zinzi, IFMA Italia</li>
+							<li><strong>Presentazione TeamSystem Construction</strong> | Lorenzo Pasquali, TeamSystem Construction</li>
+							<li>
+								<strong>Presentazione piattaforma</strong>: focus Property, Space e Facility | Daniele Bagagli, Geoweb
+								<br/>
+								Esempio applicativo gestione spazi
+								<br/>
+								Esempio applicativo gestione manutenzioni
+							</li>
+							<li><strong>Conclusioni</strong> | Carmine Rubicco, TeamSystem Construction</li>
+							<li><strong>Domande e Risposte</strong></li>
+						</ul>
+						<u>La partecipazione all'evento è gratuita previa iscrizione, compila il form on line qui a lato</u>
+					</div>
+				</article>
+			</div>
+			<div class="col-sm-6 col-md-5 sidebar">
+				<sidebar id="sidebar">
+					<!-- Form Fixed Right -->
+					<div class="form-fixed-right active form-fixed-alt" id="form-fixed-right">
+						<div id="contatto-new-3">
+							<!--[if lte IE 8]>
+							<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+							<![endif]-->
+							<script src="//js.hsforms.net/forms/v2.js" type="text/javascript" charset="utf-8"></script>
+							<script type="text/javascript">
+								// <![CDATA[
+								hbspt.forms.create({
+									portalId: "5264012",
+									formId: "7abf2aab-f76a-45d1-8d8e-92ec42bd98ff"
+								});
+								// ]]>
+							</script>
+						</div>
+					</div>
+				</sidebar>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- end side-content-alt.html-->
+<!-- start social-share.html-->
+<section class="section social-share">
+    <div class="container">
+        <div class="box _heading-center">
+            <div class="box-title _blue">
+                <h3 class="h3">Condividi sui social</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="social-share">
+                    <ul>
+                        <li>
+                            <a class="social-item" href="https://www.facebook.com/sharer/sharer.php?u=https://teamsystem.wslabs.it/HR/eventi/ifma-fm-0107" title="facebook" target="_blank">
+                                <svg class="ico"><use xlink:href="#ico-fb"></use></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="social-item" href="https://twitter.com/home?status=https://teamsystem.wslabs.it/HR/eventi/ifma-fm-0107%20@TeamSystem" title="twitter" target="_blank" >
+                                <svg class="ico"><use xlink:href="#ico-tw"></use></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="social-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://teamsystem.wslabs.it/HR/eventi/ifma-fm-0107&amp;title=Digitalizzare la gestione del patrimonio, degli spazi e delle attività manutentive&amp;summary=&amp;source=" title="linkedin" target="_blank">
+                                <svg class="ico"><use xlink:href="#ico-ln"></use></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end social-share.html-->
+</main>
+
+<!-- end main -->
+<!-- start footer.html-->
+<footer class="footer">
+	<div class="footer-primary">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<div class="box">
+						<div class="box-title">SOFTWARE ERP</div>
+						<nav aria-labelledby="SOFTWARE ERP" class="box-list">
+							<ul>
+								<li><a href="/construction/soluzioni-per-imprese-edili-impiantistiche" title=" Soluzioni per Imprese edili e impiantistiche">Imprese edili e impiantistiche</a></li>
+								<li><a href="/construction/soluzioni-per-imprese-edlli-artigiane" title="Innovazione digitale per le imprese di costruzioni e gli artigiani edili">Imprese edili artigiane</a></li>
+								<li><a href="/construction/soluzioni-per-pubblica-amministrazione" title="Soluzioni per Pubblica Amministrazione, Enti locali, Multiutilities">Pubblica Amministrazione</a>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="box">
+						<div class="box-title">A CHI SI RIVOLGE</div>
+						<nav aria-labelledby="A CHI SI RIVOLGE" class="box-list">
+							<ul>
+								<li><a href="/construction/gestione-imprese" title="Software Gestione Imprese">TeamSystem Construction Gestione Imprese</a></li>
+								<li><a href="/construction/project-management-imprese-edili" title="ERP per le imprese e gli studi">TeamSystem Construction Project Management</a></li>
+								<li><a href="/construction/cde" title="Software gestione processi">TeamSystem Constrution CDE</a> </li>
+								<li><a href="/construction/equipment-management" title="Equipment Management">TeamSystem Construction Equipment Management</a></li>
+								<li><a href="/construction/asset-management-imprese-edili" title="Software per gestione immobiliare">Teamsystem Enterprise Asset Management</a></li>
+								<li><a href="/construction/crm" title="Software per gestione immobiliare">Teamsystem CRM</a></li></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="box">
+						<div class="box-title">AZIENDA</div>
+						<nav aria-labelledby="A CHI SI RIVOLGE" class="box-list">
+							<ul>
+								<li><a href="/construction/gestione-imprese" title="Software Gestione Imprese">TeamSystem Construction Gestione Imprese</a></li>
+								<li><a href="/construction/project-management-imprese-edili" title="ERP per le imprese e gli studi">TeamSystem Construction Project Management</a></li>
+								<li><a href="/construction/cde" title="Software gestione processi">TeamSystem Constrution CDE</a> </li>
+								<li><a href="/construction/equipment-management" title="Equipment Management">TeamSystem Construction Equipment Management</a></li>
+								<li><a href="/construction/asset-management-imprese-edili" title="Software per gestione immobiliare">Teamsystem Enterprise Asset Management</a></li>
+								<li><a href="/construction/crm" title="Software per gestione immobiliare">Teamsystem CRM</a></li></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="box">
+						<div class="box-title">LINK UTILI</div>
+						<nav aria-labelledby="LINK UTILI" class="box-list">
+							<ul>
+								<li><a href="/construction/gestione-imprese" title="Software Gestione Imprese">TeamSystem Construction Gestione Imprese</a></li>
+								<li><a href="/construction/project-management-imprese-edili" title="ERP per le imprese e gli studi">TeamSystem Construction Project Management</a></li>
+								<li><a href="/construction/cde" title="Software gestione processi">TeamSystem Constrution CDE</a> </li>
+								<li><a href="/construction/equipment-management" title="Equipment Management">TeamSystem Construction Equipment Management</a></li>
+								<li><a href="/construction/asset-management-imprese-edili" title="Software per gestione immobiliare">Teamsystem Enterprise Asset Management</a></li>
+								<li><a href="/construction/crm" title="Software per gestione immobiliare">Teamsystem CRM</a></li></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="box">
+						<div class="box-title">NUMERI UTILI</div>
+						<nav aria-labelledby="NUMERI UTILI" class="box-list">
+							<ul>
+								<li><a href="/construction/gestione-imprese" title="Software Gestione Imprese">TeamSystem Construction Gestione Imprese</a></li>
+								<li><a href="/construction/project-management-imprese-edili" title="ERP per le imprese e gli studi">TeamSystem Construction Project Management</a></li>
+								<li><a href="/construction/cde" title="Software gestione processi">TeamSystem Constrution CDE</a> </li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="#" rel="nofollow" target="_blank" title="logo italia">
+						<picture>
+							<source srcset="./assets/img/logo-italia.webp" alt="Title" width="184" height="80" type="image/webp"> <!-- fullwidth webp-->
+							<img src="./assets/img/logo-italia.jpg" loading="lazy" alt="Title" width="184" height="80"> <!-- mobile jpg-->
+						</picture>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-secondary">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10">
+					<p>TeamSystem S.p.A. società con socio unico soggetta all’attività di direzione e coordinamento di Brunello Holdco S.p.A. - Cap. Soc. € 24.000.000 I.v. - C.C.I.A.A. di Pesaro e Urbino - P.I. 01035310414 - Sede Legale e Amministrativa: Via Sandro Pertini, 88 - 61122 Pesaro (PU) - Tutti i diritti riservati</p>
+				</div>
+				<div class="col-sm-2">
+					<a class="copyright" title="Digital Marketing" target="_blank" href="https://www.websolute.com">Websolute <svg class="ico"><use xlink:href="#ico-ws"></use></svg></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-tertiary">
+		<div class="container">
+			<nav aria-labelledby="social network" class="box _cta-center">
+				<ul>
+					<li><strong>SEGUICI</strong></li>
+					<li>
+						<a href="https://www.facebook.com/hr.TeamSystem/?ref=bookmarks" rel="nofollow" target="_blank" title="facebook">
+							<picture>
+                                <source srcset="./assets/img/ui/icon-fb.webp" alt="Title" width="46" height="46" type="image/webp"> <!-- fullwidth webp-->
+                                <img src="./assets/img/ui/icon-fb.jpg" loading="lazy" alt="Title" width="46" height="46"> <!-- mobile jpg-->
+                            </picture>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/company/teamsystem-construction/" rel="nofollow" target="_blank" title="linkedin">
+							<picture>
+                                <source srcset="./assets/img/ui/icon-linkedin.webp" alt="Title" width="46" height="46" type="image/webp"> <!-- fullwidth webp-->
+                                <img src="./assets/img/ui/icon-linkedin.jpg" loading="lazy" alt="Title" width="46" height="46"> <!-- mobile jpg-->
+                            </picture>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/channel/UC5eKclHD_7ah7BuXAHN7tvA" rel="nofollow" target="_blank" title="youtube">
+							<picture>
+                                <source srcset="./assets/img/ui/icon-youtube.webp" alt="Title" width="46" height="46" type="image/webp"> <!-- fullwidth webp-->
+                                <img src="./assets/img/ui/icon-youtube.jpg" loading="lazy" alt="Title" width="46" height="46"> <!-- mobile jpg-->
+                            </picture>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/teamsystem_official/" rel="nofollow" target="_blank" title="instagram">
+							<picture>
+                                <source srcset="./assets/img/ui/icon-ig.webp" alt="Title" width="46" height="46" type="image/webp"> <!-- fullwidth webp-->
+                                <img src="./assets/img/ui/icon-ig.png" loading="lazy" alt="Title" width="46" height="46"> <!-- mobile jpg-->
+                            </picture>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</footer>
+
+<!-- end footer.html-->
+	</div>
+<!-- start svg.html-->
+<svg display="none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+	<defs>
+		<symbol id="ico-ws" viewBox="0 0 17 17">
+			<path fill-rule="evenodd" d="M8.157 16.42c-4.418 0-7.998-3.586-7.998-8.008 0-4.427 3.58-8.014 7.998-8.014 4.417 0 7.999 3.587 7.999 8.014 0 4.422-3.582 8.008-7.999 8.008zm4.054-10.015h-1.362v2.311c0 .274-.097.502-.292.69-.098.091-.205.16-.32.211-.115.047-.245.073-.393.073-.145 0-.277-.026-.392-.073-.115-.051-.221-.12-.319-.211-.196-.179-.292-.41-.292-.69V6.427H7.49v2.267c-.022.268-.119.501-.293.699-.175.199-.405.297-.691.297-.28 0-.521-.096-.722-.284-.189-.179-.283-.395-.283-.65V6.405H4.14v2.311c0 .615.231 1.153.692 1.62.452.453 1.01.68 1.674.68.663 0 1.217-.227 1.664-.68l.01-.011.01.011c.447.453 1.003.68 1.666.68.656 0 1.21-.227 1.663-.68.461-.473.692-1.012.692-1.62V6.405z"/>
+		</symbol>
+		<symbol id="ico-search" viewBox="0 0 256 256" fill="currentColor">
+			<rect width="256" height="256" fill="none"></rect>
+			<circle cx="116" cy="116" r="84" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></circle>
+			<line x1="175.39356" y1="175.40039" x2="223.99414" y2="224.00098" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+		</symbol>
+		<symbol id="ico-back" viewBox="0 0 7.43 12.02">
+			<polygon points="0 6.02 6 12.02 7.43 10.59 2.84 6 7.43 1.42 6.01 0 0.01 6 0.02 6 0 6.02" />
+		</symbol>
+		<symbol id="ico-arrow" viewBox="0 0 7.43 12.02">
+			<polygon points="7.43 6 1.43 0 0 1.43 4.59 6.02 0 10.6 1.42 12.02 7.42 6.02 7.41 6.02 7.43 6" />
+		</symbol>
+		<symbol id="ico-fb" viewBox="0 0 24 24">
+			<path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"/>
+		</symbol>
+		<symbol id="ico-ln" viewBox="0 5 1036 990">
+			<path d="M0 120c0-33.334 11.667-60.834 35-82.5C58.333 15.833 88.667 5 126 5c36.667 0 66.333 10.666 89 32 23.333 22 35 50.666 35 86 0 32-11.333 58.666-34 80-23.333 22-54 33-92 33h-1c-36.667 0-66.333-11-89-33S0 153.333 0 120zm13 875V327h222v668H13zm345 0h222V622c0-23.334 2.667-41.334 8-54 9.333-22.667 23.5-41.834 42.5-57.5 19-15.667 42.833-23.5 71.5-23.5 74.667 0 112 50.333 112 151v357h222V612c0-98.667-23.333-173.5-70-224.5S857.667 311 781 311c-86 0-153 37-201 111v2h-1l1-2v-95H358c1.333 21.333 2 87.666 2 199 0 111.333-.667 267.666-2 469z"/>
+		</symbol>
+		<symbol id="ico-tw" viewBox="0 0 24 24">
+			<path d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z"/>
+		</symbol>
+		<symbol id="ico-filter" viewBox="0 0 1792 1792">
+			<path d="M1595 295q17 41-14 70l-493 493v742q0 42-39 59-13 5-25 5-27 0-45-19l-256-256q-19-19-19-45v-486l-493-493q-31-29-14-70 17-39 59-39h1280q42 0 59 39z"/>
+		</symbol>
+	</defs>
+</svg>
+
+<!-- end svg.html-->
+<!-- start js -->
+<!-- <script src="./js/vendors.min.js"></script> -->
+<script src="./js/schedaEvento.min.js"></script>
+
+<!-- end js -->
+</body>
+</html>
+
