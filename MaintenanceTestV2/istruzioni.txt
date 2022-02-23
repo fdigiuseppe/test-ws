@@ -5,6 +5,10 @@ Il test si basa su un montaggio reale con il bundler utilizzato dai front ender.
 
 Puoi scegliere 2 modi di intraprendere il test:
 1) lavorare sulla cartella dist (sui file generati) e rimandare lo zip con eventuali correzioni
+    - Non preoccuparti dei file .map
+    - Dovrai lavorare sui file .css e .js utilizzati dai template HTML. Non modificare i richiami dei .css e .js nei template ma lavora direttamente sui file.
+    - Online ci sono free tool per la sminimizzazione e riminimizzazione dei file.
+    
 oppure 
 2) installare node js e gulp e lavorare sui sorgenti che rigenerano a sua volta la cartella dist. Al termine rimandare solo le cartelle dist e src zippate.
 
@@ -57,6 +61,6 @@ Precisazioni:
 -	Sempre da google chrome puoi simulare per tablet e phone i dispositivi indicati sopra e svolgere il controllo. Aggiorna la pagina una volta switchato il dispositivo dagli strumenti di sviluppo di chrome
 -	Alcuni bug sono reali, altri mentre li ho introdotti io volontariamente in forme non comuni (che non troveresti su normali siti ma da qualche parte li ho dovuti “nascondere”). Essendo template statici parliamo sempre di css e js.
 -	Se qualcosa ti sembra dubbio sia in visualizzazione, sia a livello di codice, sia al livello di estetica e/o usabilità segnalalo lo stesso nel documento word
-- Prova a fixare il maggior numero di segnalazioni che riscontri
+-   Prova a fixare il maggior numero di segnalazioni che riscontri
 
 Una volta terminato, comprimi tutto in uno zip (tranne la cartella node_modules se hai installato node e gulp) e rimandacelo per la valutazione.
